@@ -1,0 +1,16 @@
+
+.white {
+    width: fit-content;
+    background-color: rgb(152, 152, 152);
+    border-radius: 20px;
+    padding: 20px 30px;
+   
+
+}
+.anual{
+    width: fit-content;
+    background-color: rgb(77, 172, 245);
+    padding: 20px 30px;
+    border-radius: 20px;
+
+}
