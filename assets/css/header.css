@@ -1,0 +1,43 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.cabecalho{
+  background-color: var(--roxo);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 80px;
+  padding: 0 32px;
+}
+.navegacao{
+  display: flex;
+  gap: 10px;
+}
+.navegacao li{
+  list-style: none;
+}
+.navegacao li a{
+  color: black;
+  text-decoration: none;
+
+}
+.buscar{
+  width: 20%;
+  position: relative;
+}
+.buscar img{
+  position: absolute;
+  top: 4px;
+  left: 0.5rem;
+}
+input[type=search]{
+  border-radius: 10px;
+  height: 28px;
+  width: 100%;
+  padding: 0 2rem;
+}
+
