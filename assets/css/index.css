@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    text-align: center;
+    
+
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+.cards {
+    background-color: blueviolet;
+    width: 50%;
+    height: 50%;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    position: relative;
+
+}
+
+.card1 {
+    width: auto;
+    height: auto;
+    background-color: rgb(185, 0, 0);
+    border-radius: 10px;
+
+
+}
+
+.card2 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-color: rgb(255, 242, 0);
+    border-radius: 10px;
+    z-index: 1;
+    left: 50%;
+    top: 30%;
+
+
+}
+
+.card3 {
+    width: auto;
+    height: auto;
+    background-color: rgb(0, 141, 35);
+    border-radius: 10px;
+
+
+}
