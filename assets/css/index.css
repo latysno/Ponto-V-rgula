@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,61 +7,106 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: grey;
+    background-color: #EFEFEF;
+    justify-content: center;
     text-align: center;
-    
-
-}
-
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+    font-family: inter;
 
 }
 
 .cards {
-    background-color: blueviolet;
-    width: 50%;
-    height: 50%;
+    width: auto;
+    height: auto;
     padding: 4rem;
     display: flex;
     align-items: center;
-    justify-items: center;
-    text-align: center;
+    justify-content: center;
     position: relative;
+    text-align: center;
+    margin-top: 30px;
 
 }
 
 .card1 {
-    width: auto;
-    height: auto;
-    background-color: rgb(185, 0, 0);
+    width: 400px;
+    height: 670px;
+    background-color: #4397E8;
     border-radius: 10px;
+    margin-right: 25%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 
 
 }
 
 .card2 {
-    width: auto;
-    height: auto;
+    width: 400px;
+    height: 670px;
     position: absolute;
-    background-color: rgb(255, 242, 0);
+    background-color: white;
     border-radius: 10px;
     z-index: 1;
-    left: 50%;
-    top: 30%;
+    bottom: 15%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+
 
 
 }
 
 .card3 {
-    width: auto;
-    height: auto;
-    background-color: rgb(0, 141, 35);
+    width: 400px;
+    height: 670px;
+    background-color: #4397E8;
     border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 
+}
+
+.titleCard {
+    padding: 10px;
+}
+
+.inicio {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    position: relative;
+}
+
+.img1 {}
+
+.titleImg {
+    position: absolute;
+    margin-left: 50px;
+    font-size: 24px;
+    width: 30%;
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    width: 190px;
+    height: 50px;
+    background-color: #2071F2;
+    border-radius: 10px;
+    color: white;
+    border: 0px;
+    margin: 10px;
+}
+
+.boxCheck {
+    width: 80%;
+    height: 50%;
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+.check {
+    display: flex;
+    width: auto;
 
 }

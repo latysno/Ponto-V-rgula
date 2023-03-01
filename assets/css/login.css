@@ -1,2 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.login {
+    background-color: blueviolet;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 10px;
+    display: inline-flex;
+
+}
+
+.link {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+
+}
+
+a {
+    color: white;
+}
+
+input {
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-color: white;
+}
