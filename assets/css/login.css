@@ -1,28 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
-* {
-    box-sizing: border-box;
-}
-
 body {
-    font-family: Inter;
-    width: 100vw;
-    height: 100vh;
-    background-color: grey;
     align-items: center;
     justify-content: center;
     display: flex;
 }
 
 .login {
-    background-color: blueviolet;
+    background-color: var(--roxo);
     width: 600px;
     height: 400px;
-    padding: 20px;
     text-align: center;
     flex-direction: column;
     border-radius: 10px;
     display: inline-flex;
+
 
 }
 
@@ -30,7 +22,7 @@ body {
     display: flex;
     padding: 20px;
     justify-content: center;
-
+    
 }
 
 a {
@@ -44,4 +36,16 @@ input {
     margin-bottom: 20px;
     padding-left: 10px;
     border-color: white;
+}
+
+.title{
+    padding: 20px;
+}
+
+.title h1{
+    padding: 20px;
+}
+
+.title h2{
+    margin-bottom: 5px;
 }

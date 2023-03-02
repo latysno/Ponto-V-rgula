@@ -1,18 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
-* {
-    box-sizing: border-box;
+/* INÍCIO */
+
+.inicio {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    position: relative;
 }
 
-body {
-    width: 100vw;
-    height: 100vh;
-    background-color: #EFEFEF;
-    justify-content: center;
-    text-align: center;
-    font-family: inter;
-
+.titleImg {
+    position: absolute;
+    margin-left: 50px;
+    font-size: 24px;
+    width: 30%;
 }
+
+.img1 {
+    width: 100%;
+}
+
+.img1 img {
+    width: 100%;
+}
+
+/* CARDS */
 
 .cards {
     width: auto;
@@ -34,8 +49,6 @@ body {
     border-radius: 10px;
     margin-right: 25%;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
-
-
 }
 
 .card2 {
@@ -47,8 +60,6 @@ body {
     z-index: 1;
     bottom: 15%;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
-
-
 
 }
 
@@ -65,38 +76,6 @@ body {
     padding: 10px;
 }
 
-.inicio {
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    text-align: left;
-    position: relative;
-}
-
-
-.titleImg {
-    position: absolute;
-    margin-left: 50px;
-    font-size: 24px;
-    width: 30%;
-}
-
-h1 {
-    color: white;
-}
-
-button {
-    width: 190px;
-    height: 50px;
-    background-color: #2071F2;
-    border-radius: 10px;
-    color: white;
-    border: 0px;
-    margin: 10px;
-}
-
 .boxCheck {
     width: 80%;
     height: 50%;
@@ -107,5 +86,22 @@ button {
 .check {
     display: flex;
     width: auto;
+    align-items: center;
 
+}
+
+.check img {
+    width: 30px;
+}
+
+/* BOTÕES */
+
+button {
+    width: 190px;
+    height: 50px;
+    background-color: #2071F2;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    margin: 10px;
 }
