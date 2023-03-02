@@ -9,19 +9,26 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   height: 80px;
   padding: 0 32px;
 }
+.cabecalho h1{
+  color: var(--white);
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .navegacao{
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 .navegacao li{
   list-style: none;
 }
 .navegacao li a{
-  color: black;
+  color: var(--white);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
 
 }
@@ -31,13 +38,19 @@
 }
 .buscar img{
   position: absolute;
-  top: 4px;
+  top: 6px;
   left: 0.5rem;
+  width: 20px;
 }
 input[type=search]{
   border-radius: 10px;
-  height: 28px;
+  height: 32px;
+  border: none;
   width: 100%;
-  padding: 0 2rem;
+  padding-left: 2rem;
+  
+}
+input[type=search]:focus{
+  outline: 2px solid var(--purple);
 }
 
