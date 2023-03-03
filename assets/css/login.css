@@ -1,32 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
-body {
-    align-items: center;
+.boxLogin {
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
     justify-content: center;
     display: flex;
+    margin-top: 8%;
+
 }
 
-.login {
+form {
     background-color: var(--roxo);
     width: 600px;
     height: 400px;
     text-align: center;
-    flex-direction: column;
     border-radius: 10px;
-    display: inline-flex;
-
-
+    align-items: center;
+    color: var(--white);
 }
 
 .link {
     display: flex;
-    padding: 20px;
+    padding: 15px;
     justify-content: center;
-    
-}
+    color: var(--white);
 
-a {
-    color: white;
+
 }
 
 input {
@@ -34,18 +34,25 @@ input {
     width: 300px;
     border-radius: 10px;
     margin-bottom: 20px;
-    padding-left: 10px;
-    border-color: white;
+    padding-left: 15px;
+    border: 0;
 }
 
-.title{
+.title {
     padding: 20px;
 }
 
-.title h1{
-    padding: 20px;
+.title h1, h2 {
+    padding: 2%;
 }
 
-.title h2{
-    margin-bottom: 5px;
+a {
+    color: var(--white);
+}
+
+.inputLogin input{
+    background-color: var(--purple);
+}
+.inputPassaword input{
+    background-color: var(--purple);
 }
