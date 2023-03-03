@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
+/* HEADER */
+
+.navegacao{
+    align-items: center;
+    margin: 20px;
+}
+
+.navegacao input{
+    border-radius: 10px;
+    width: 130px;
+    height: 33px;
+    background-color: var(--white);
+    color: black;
+    border: none;
+    
+}
+
 /* INÍCIO */
 
 .inicio {
@@ -17,15 +34,22 @@
     margin-left: 50px;
     font-size: 24px;
     width: 30%;
+    color: var(--white);
+}
+
+.titleImg button{
+    margin-top: 10%;
 }
 
 .img1 {
     width: 100%;
 }
 
+
 .img1 img {
     width: 100%;
 }
+
 
 /* CARDS */
 
@@ -38,61 +62,82 @@
     justify-content: center;
     position: relative;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 5%
 
 }
 
 .card1 {
-    width: 400px;
-    height: 670px;
+    width: 380px;
+    height: 600px;
     background-color: #4397E8;
     border-radius: 10px;
     margin-right: 25%;
+    color: var(--white);
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .card2 {
-    width: 400px;
-    height: 670px;
+    width: 380px;
+    height: 620px;
     position: absolute;
     background-color: white;
     border-radius: 10px;
     z-index: 1;
-    bottom: 15%;
+    bottom: 14%;
+    color: var(--cinza);
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 
 }
 
 .card3 {
-    width: 400px;
-    height: 670px;
+    width: 380px;
+    height: 600px;
     background-color: #4397E8;
     border-radius: 10px;
+    color: var(--white);
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 
 }
 
 .titleCard {
-    padding: 10px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.titleCard h2{
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+.titleCard h1{
+    font-size: 5ch;
 }
 
 .boxCheck {
     width: 80%;
-    height: 50%;
-    margin-left: 10%;
+    height: 30%;
+    margin-left: 13%;
     font-weight: bold;
+    align-items: center;
+    margin-top: 20%;
 }
 
 .check {
     display: flex;
     width: auto;
-    align-items: center;
 
 }
 
 .check img {
-    width: 30px;
+    width: 20px;
+    margin-right: 15px;
 }
+
+.check p{
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
 
 /* BOTÕES */
 
@@ -103,5 +148,8 @@ button {
     border-radius: 10px;
     color: white;
     border: none;
-    margin: 10px;
+    margin-top: 15%;
+
 }
+
+
