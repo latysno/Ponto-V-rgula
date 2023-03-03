@@ -42,6 +42,12 @@
     
     
   }
+  .cursando{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 55px 40px;
+  }
   .edit2{
     background-color: var(--white);
     width: 1000px;
