@@ -7,8 +7,20 @@
     color: var(--white);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
+    cursor: pointer;
 }
 .botao:hover{
     background-color: var(--gray);
     color: var(--blue);
+}
+.botao2{
+    background-color: inherit;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--cinza);
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 4rem;
+
 }

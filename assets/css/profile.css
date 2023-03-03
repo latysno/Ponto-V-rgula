@@ -23,7 +23,7 @@
 
   .under{
     text-decoration-line: underline;
-    padding-top: 4%;
+    padding-top: 2rem;
   }
  
   .cursos{
@@ -38,15 +38,24 @@
     border-radius: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 40px 0px 0px 0px;
+    padding: 16px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    }
+  .barra_prog{
     text-align: center;
-    
-    
+    width: 100%;
   }
   .cursando{
     display: flex;
-    gap: 2rem;
     align-items: center;
-    padding: 55px 40px;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--cinza);
+    gap: 1rem;
+
   }
   .edit2{
     background-color: var(--white);
@@ -68,6 +77,7 @@
     height: 174px;
     margin: 100px 0px;
     color: var(--cinza3);
+    font-weight: 600;
   }
   .plano{
     background-color: var(--white);  
