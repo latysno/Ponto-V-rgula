@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +13,9 @@
     <link rel="stylesheet" href="assets/css/cadastro.css">
     <link rel="stylesheet" href="assets/css/profile.css">
     <link rel="stylesheet" href="assets/css/buttons.css">
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
+
 <body>
     <header class="cabecalho">
         <h1 class="logo">Ponto&Vírgula</h1>
@@ -21,44 +24,67 @@
             <input type="search" class="pesquisar">
         </div>
         <ul class="navegacao">
-            <li><a href="#">Nossos Cursos</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Entrar</a></li>
+            <li><a href="profile.html">Nossos Cursos</a></li>
+            <li><a href="index.html">Sobre</a></li>
+            <li><a href="login.html">Entrar</a></li>
         </ul>
     </header>
     <main>
         <div class="forms">
-            
-                <h1 class="under">Dados Pessoais</h1>
-            <div>
-                <input type="text" name="" id="nome" placeholder="Nome Completo">
-                <input type="email" name="" id="email" placeholder="E-mail">
-                <input type="password" name="" id="senha" placeholder="Senha">
-                <input type="text" name="" id="cpf" placeholder="CPF">
-                <input type="tel" name="" id="tel" placeholder="Telefone">
-                <input type="submit" class="botao">
+
+            <h1 class="under_filho">Dados Pessoais</h1>
+            <form class="cads">
+
+                <input type="text" name="" class="bar input" id="" placeholder="Nome Completo">
+                <input type="email" name="" class="bar input" id="" placeholder="E-mail">
+                <div class="pass">
+                    <input type="password" name="" class="min_bar input" id="" placeholder="Senha">
+                    <input type="text" name="" class="min_bar input" id="" placeholder="CPF">
+                </div>
+                <div>
+                    <input type="tel" name="" class="min_bar input" id="" placeholder="Telefone">
+                </div>
+                <input type="submit" value="Cadastrar" class="botao cadastrar">
+            </form>
+        </div>
+
+        <section>
+            <div class="fundo">
+                <h2 class="texto_card">Informações sobre seu plano</h2>
+                <div class="fundo_conteudo">
+                    <p>Plano Mensal</p>
+                    <p>Até <b>12x R$99.99</b>(ou <b> R$ 9999.99 á vista</b>)</p>
+                </div>
+                <div class="conteudo">
+                            <div class="check">
+                                <img src="assets/img/verificar (1).svg" alt="">
+                                <p>Acesso a todos os cursos</p>
+                            </div>
+                            <div class="check">
+                                <img src="assets/img/verificar (1).svg" alt="">
+                                <p>Estude 1 ano</p>
+                            </div>
+                            <div class="check">
+                                <img src="assets/img/verificar (1).svg" alt="">
+                                <p>Atividades e Desafios</p>
+                            </div>
+                            <div class="check">
+                                <img src="assets/img/verificar (1).svg" alt="">
+                                <p>Certificados</p>
+                            </div>
+                            <div class="check">
+                                <img src="assets/img/verificar (1).svg" alt="">
+                                <p>Indicações para estágios</p>
+                            </div>
+                </div>
             </div>
-        </div>
-    </section>
-    <section>
-        <h2>Informações sobre seu plano</h2>
-        <div>
-            <p>Plano Mensal</p>
-            <p>Até 12x R$99.99(ou R$ 9999.99 á vista)</p>
-        </div>
-        <div>
-            <p>Acesso a todos os cursos</p>
-            <p>Estude 1 ano</p>
-            <p>Atividades e Desafios</p>
-            <p>Certificados</p>
-            <p>Indicações para estágios</p>
-        </div>
+        </section>
     </main>
 
 </body>
 
-<footer>    
-    <p>Desenvolvido por: 
+<footer>
+    <p>Desenvolvido por:
         <a target="_blank" href="https://github.com/latysno">
             <img src="./assets/icons/github.svg" alt="">
             Álvaro Luís
