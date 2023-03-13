@@ -12,7 +12,7 @@
 
 form {
     background-color: var(--roxo);
-    width: 600px;
+    width: 60%;
     height: 400px;
     text-align: center;
     border-radius: 10px;
@@ -55,4 +55,14 @@ a {
 }
 .inputPassaword input{
     background-color: var(--purple);
+}
+
+@media screen and (max-width:670px){
+
+    .form{
+        width: 20%;
+
+    }
+
+    
 }
