@@ -2,19 +2,19 @@
 
 /* HEADER */
 
-.navegacao{
+.navegacao {
     align-items: center;
     margin: 20px;
 }
 
-.navegacao input{
+.navegacao input {
     border-radius: 10px;
     width: 130px;
     height: 33px;
     background-color: var(--white);
     color: black;
     border: none;
-    
+
 }
 
 /* INÍCIO */
@@ -37,7 +37,7 @@
     color: var(--white);
 }
 
-.titleImg button{
+.titleImg button {
     margin-top: 10%;
 }
 
@@ -62,6 +62,7 @@
     justify-content: center;
     position: relative;
     text-align: center;
+    gap: 25%;
 
 }
 
@@ -72,7 +73,7 @@
     border-radius: 20px;
     color: var(--white);
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
-    
+
 }
 
 .card_white {
@@ -88,6 +89,11 @@
 
 }
 
+.containerCard {
+    display: flex;
+    flex-direction: column;
+}
+
 .card_blue {
     width: 380px;
     height: 600px;
@@ -98,21 +104,26 @@
 
 }
 
-.titleCard{
-    justify-content: center ;
+.titleCard {
+    justify-content: center;
+    padding: 20px;
+    line-height: 60px;
 
 }
 
-li{
+li {
     display: flex;
     padding: 15px;
     gap: 10px;
-    justify-content: center;
 
 }
 
+ul {
+    padding: 30px 60px 80px 60px;
+}
 
-li img{ 
+
+li img {
     width: 20px;
 
 }
@@ -127,9 +138,101 @@ button {
     color: white;
     border: none;
 
-    
 }
 
+@media screen and (min-width: 1200px) {
+    .cards {
+        gap: 280px;
+    }
+}
 
+@media screen and (max-width: 1200px) {
 
+    .titleImg {
+        font-size: 16px;
+    }
 
+    .cards {
+        display: block;
+        width: 100%;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    .card_blue {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card_white {
+        width: 100%;
+        height: auto;
+        position: relative;
+        bottom: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .containerCard {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 24px;
+        gap: 24px;
+    }
+
+    .titleCard h1 {
+        font-size: 60px;
+    }
+
+    .titleCard h2 {
+        font-size: 30px;
+    }
+
+    .card_white button {
+        margin-bottom: 2rem;
+    }
+
+    .card_blue button {
+        margin-bottom: 2rem;
+    }
+
+    li p {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 769px) {
+
+    .cards{
+        padding: 24px 0;
+    }
+    .card_blue {
+        width: 380px;
+        height: 600px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card_white {
+        width: 380px;
+        height: 600px;
+        position: relative;
+        bottom: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .containerCard {
+        flex-direction: column;
+        align-items: center;
+        padding: 24px;
+        gap: 24px;
+    }
+
+}
