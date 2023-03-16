@@ -88,6 +88,16 @@ input.min_bar[type=tel]{
     color: var(--cinza);
     padding: 0 42px;
 }
+.check{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+    
+}
+.check img{
+    width: 2rem;
+    display: flex;
+}
 div p{
     font-weight: 600;
 }
