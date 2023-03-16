@@ -1,0 +1,55 @@
+.est_header {
+  background-color: var(--roxo);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  padding: 0 32px;
+}
+.logo1 {
+  color: var(--white);
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#burguer {
+  color: var(--white);
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  right: 32px;
+}
+.nav {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  background-color: var(--purple);
+  width: 128px;
+  height: 7rem;
+  padding: 0 8px;
+  border-radius: 10px;
+  position: absolute;
+  top: 48px;
+  right: 32px;
+  justify-content: center;
+}
+.nav li {
+  list-style: none;
+}
+.nav li a {
+  color: var(--white);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.nav li a:hover {
+  color: var(--blue);
+}
+#itens {
+  display: flex;
+}
+@media screen and (min-width: 1026px) {
+  #burguer {
+    display: none;
+  }
+}

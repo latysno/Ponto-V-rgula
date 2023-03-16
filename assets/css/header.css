@@ -53,4 +53,12 @@ input[type=search]{
 input[type=search]:focus{
   outline: 2px solid var(--purple);
 }
+@media screen and (max-width:1025px){
+  .navegacao{
+    display: none;
+  }
+  .buscar{
+    display: none;
+  }
+}
 

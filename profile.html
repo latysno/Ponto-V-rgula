@@ -1,128 +1,150 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/header.css">
-    <link rel="stylesheet" href="/assets/css/root.css">
-    <link rel="stylesheet" href="/assets/css/profile.css">
-    <link rel="stylesheet" href="/assets/css/buttons.css">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/footer.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/header.css" />
+    <link rel="stylesheet" href="/assets/css/header_burguer.css" />
+    <link rel="stylesheet" href="/assets/css/root.css" />
+    <link rel="stylesheet" href="/assets/css/profile.css" />
+    <link rel="stylesheet" href="/assets/css/buttons.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <title>Ponto&Vírgula</title>
-</head>
+  </head>
 
-<body>
-    <header class="cabecalho">
+  <body>
+    <!-- <header class="cabecalho">
         <h1 class="logo">Ponto&Vírgula</h1>
-        <div class="buscar">
-            <img src="/assets/icons/procurar 1.svg" alt="buscar">
-            <input type="search" class="pesquisar">
-        </div>
+        
         <ul class="navegacao">
             <li><a href="profile.html">Nossos Cursos</a></li>
             <li><a href="index.html">Sobre</a></li>
             <li><a href="login.html">Entrar</a></li>
         </ul>
+    </header> -->
+    <header class="est_header">
+      <h1 class="logo1">Ponto&Vírgula</h1>
+      <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()"
+        >Menu</span
+      >
+      <div id="itens">
+        <ul class="nav">
+          <li><a href="profile.html">Nossos Cursos</a></li>
+          <li><a href="index.html">Sobre</a></li>
+          <li><a href="login.html">Entrar</a></li>
+        </ul>
+      </div>
+      <div class="buscar">
+        <img src="/assets/icons/procurar 1.svg" alt="buscar" />
+        <input type="search" class="pesquisar" />
+      </div>
+      <ul class="navegacao">
+        <li><a href="profile.html">Nossos Cursos</a></li>
+        <li><a href="index.html">Sobre</a></li>
+        <li><a href="login.html">Entrar</a></li>
+      </ul>
     </header>
+
     <main>
+      <div class="cursos">
+        <h1 class="under">Meus Cursos</h1>
+        <div class="edit">
+          <img src="assets/icons/barra_maior.svg" class="barra_prog" alt="" />
 
-
-        <div class="cursos">
-            <h1 class="under">Meus Cursos</h1>
-            <div class="edit">
-                
-                    <img src="assets/icons/barra_maior.svg" class="barra_prog" alt="">
-                
-                <div class="cursando">
-                    <img src="assets/img/BD_Curso.svg" alt="">
-                    <p>Banco de Dados</p>
-                </div>
-                <div class="botoes">
-                    <input type="button" value="Continuar o curso" class="botao">
-                    <input type="button" value="Sala de Aula" class="botao2">
-
-                </div>
-            </div>
-
-            <div class="edit2">
-                <div class="image">
-                    <img src="assets/img/Design sem nome 1.svg" alt="">
-                    <div class="font">
-                        <p>Outros cursos iniciados ficarão aqui</p>
-                    </div>
-                </div>
-            </div>
+          <div class="cursando">
+            <img src="assets/img/BD_Curso.svg" alt="" />
+            <p>Banco de Dados</p>
+          </div>
+          <div class="botoes">
+            <input type="button" value="Continuar o curso" class="botao" />
+            <input type="button" value="Sala de Aula" class="botao2" />
+          </div>
         </div>
 
-
-
-
-
-        <div class="cursos">
-            <h1 class="under">Plano de Estudo</h1>
-
-            <div class="plano">
-                <h1>Passo Atual</h1>
-                <div class="borda">
-                    <div class="course">
-                        <img src="assets/img/BD_Curso.svg" alt="">
-                    </div>
-                    <div>
-                        <p>CURSO</p>
-                        <p>Banco de Dados</p>
-                    </div>
-                    <div>
-                        <img src="assets/icons/barra_de_prog.svg" alt="">
-                    </div>
-                </div>
-                <h1>Próximo Passo</h1>
-                <div class="borda">
-                    <div class="course">
-                        <img src="assets/img/Mobile_Code.svg" alt="">
-                    </div>
-                    <div>
-                        <p>CURSO</p>
-                        <p>Mobile Code</p>
-                    </div>
-                    <div>
-                        <img src="assets/icons/barra_de_prog.svg" alt="">
-                    </div>
-
-                </div>
-                <div class="borda">
-                    <div class="course">
-                        <img src="assets/img/Cloud.svg" alt="">
-                    </div>
-                    <div>
-                        <p>CURSO</p>
-                        <p>Cloud</p>
-                    </div>
-                    <div>
-                        <img src="assets/icons/barra_de_prog.svg" alt="">
-                    </div>
-
-
-                </div>
+        <div class="edit2">
+          <div class="image">
+            <img src="assets/img/Design sem nome 1.svg" alt="" />
+            <div class="font">
+              <p>Outros cursos iniciados ficarão aqui</p>
             </div>
+          </div>
         </div>
+      </div>
+
+      <div class="cursos">
+        <h1 class="under">Plano de Estudo</h1>
+
+        <div class="plano">
+          <h1>Passo Atual</h1>
+          <div class="borda">
+            <div class="course">
+              <img src="assets/img/BD_Curso.svg" alt="" />
+            </div>
+            <div>
+              <p>CURSO</p>
+              <p>Banco de Dados</p>
+            </div>
+            <div>
+              <img src="assets/icons/barra_de_prog.svg" alt="" />
+            </div>
+          </div>
+          <h1>Próximo Passo</h1>
+          <div class="borda">
+            <div class="course">
+              <img src="assets/img/Mobile_Code.svg" alt="" />
+            </div>
+            <div>
+              <p>CURSO</p>
+              <p>Mobile Code</p>
+            </div>
+            <div>
+              <img src="assets/icons/barra_de_prog.svg" alt="" />
+            </div>
+          </div>
+          <div class="borda">
+            <div class="course">
+              <img src="assets/img/Cloud.svg" alt="" />
+            </div>
+            <div>
+              <p>CURSO</p>
+              <p>Cloud</p>
+            </div>
+            <div>
+              <img src="assets/icons/barra_de_prog.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+    <script>
+      const lista = document.querySelector(".nav");
+      function clickMenu() {
+        if (lista.style.display == "none") {
+          lista.style.display = "flex";
+        } else {
+          lista.style.display = "none";
+        }
+      }
+    </script>
+  </body>
 
-</body>
-
-<footer>
-    <p>Desenvolvido por:
-        <a target="_blank" href="https://github.com/latysno">
-            <img src="./assets/icons/github.svg" alt="">
-            Álvaro Luís
-        </a>
-        <a target="_blank" href="https://github.com/V1mendes">
-            <img src="./assets/icons/github.svg" alt="">
-            Vitória Mendes
-        </a>
+  <footer>
+    <p>
+      Desenvolvido por:
+      <a target="_blank" href="https://github.com/latysno">
+        <img src="./assets/icons/github.svg" alt="" />
+        Álvaro Luís
+      </a>
+      <a target="_blank" href="https://github.com/V1mendes">
+        <img src="./assets/icons/github.svg" alt="" />
+        Vitória Mendes
+      </a>
     </p>
-</footer>
-
+  </footer>
 </html>
