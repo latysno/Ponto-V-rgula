@@ -39,13 +39,12 @@
 .titleImg {
     position: absolute;
     margin-left: 50px;
-    font-size: 24px;
     width: 40%;
     color: var(--white);
 }
 
 
-.titleImg h1{
+.titleImg h1 {
     width: 300px;
 }
 
@@ -58,9 +57,6 @@
 .img1 {
     width: 100%;
 }
-
-
-
 
 .img1 img {
     width: 100%;
@@ -157,8 +153,6 @@ ul {
 }
 
 
-
-
 li img {
     width: 20px;
 
@@ -186,12 +180,8 @@ button {
         gap: 280px;
     }
 }
+
 @media screen and (max-width: 1200px) {
-
-
-    .titleImg {
-        font-size: 16px;
-    }
 
 
     .cards {
@@ -259,18 +249,16 @@ button {
 
 
 }
-@media screen and (max-width: 769px){
+
+@media screen and (max-width: 769px) {
 
 
     .titleImg {
-
 
         width: auto;
         display: flex;
         align-items: center;
         margin: 0 30px;
-       
-
 
     }
 
@@ -278,6 +266,7 @@ button {
     .titleImg button {
         max-width: 500px;
         margin: 0;
+        display: none;
     }
 
 
@@ -294,52 +283,50 @@ button {
     li p {
         font-size: 16px;
     }
-    .inicio{
+
+    .inicio {
         align-items: center;
     }
 
 
-
-
 }
-@media screen and (max-width: 640px){
+
+@media screen and (max-width: 640px) {
 
 
-    .titleImg h1{
+    .titleImg h1 {
         font-size: 24px;
         width: 40%;
     }
-    .titleImg{
+
+    .titleImg {
         gap: 10%;
     }
 
-
-    .titleImg button{
-        font-size: 12px;
-        width: 180px;
-        height: 50px;
-        border-radius: 10px;
-    }
-    .containerCard{
+    .containerCard {
         flex-direction: column;
-       
+
     }
 }
-@media screen and (max-width: 430px){
-    .titleImg h1{
-        font-size: 16px;
+
+@media screen and (max-width: 430px) {
+    .titleImg h1 {
+        width: 150px;
     }
-   
-    .cards{
+
+    .cards {
         padding: 40px;
     }
-    .containerCard{
+
+    .containerCard {
         padding: 10px;
         gap: 0;
     }
-    .titleCard{
+
+    .titleCard {
         padding: 10px;
     }
+
     .titleCard h1 {
         font-size: 30px;
     }
@@ -348,10 +335,12 @@ button {
     .titleCard h2 {
         font-size: 20px;
     }
-    ul{
+
+    ul {
         padding: 10px;
     }
-    li{
+
+    li {
         padding: 10px;
     }
 
@@ -359,16 +348,18 @@ button {
     li p {
         font-size: 12px;
     }
-    .titleImg button{
+
+    .titleImg button {
         font-size: 10px;
         width: 150px;
         height: 40px;
         border-radius: 10px;
     }
-    button{
+
+    button {
         width: 150px;
         height: 40px;
         border-radius: 10px;
     }
-   
+
 }

@@ -9,7 +9,6 @@
     display: flex;
     margin-top: 8%;
 
-
 }
 
 
@@ -30,11 +29,7 @@ form {
     justify-content: center;
     color: var(--white);
 
-
-
-
 }
-
 
 input {
     height: 40px;
@@ -44,9 +39,6 @@ input {
     padding-left: 15px;
     border: 0;
 }
-
-
-
 
 .title {
     padding: 20px;
@@ -65,9 +57,12 @@ a {
 
 .inputLogin input{
     background-color: var(--purple);
+    color:white;
+
 }
 .inputPassword input{
     background-color: var(--purple);
+    color:white;
 }
 
 
@@ -77,7 +72,6 @@ a {
         width: 100%;
         height: auto;
         margin: 0 90px;
-
 
     }
     form input{
