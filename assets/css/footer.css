@@ -1,4 +1,4 @@
-footer{
+footer {
     height: 8%;
     text-align: center;
     padding-top: 15px;
@@ -7,12 +7,25 @@ footer{
     margin-top: 8%;
 }
 
-footer img{
+
+footer img {
     width: 20px;
     margin-left: 2px;
 }
 
-footer a{
+
+footer a {
     text-decoration: none;
     color: var(--cinza);
+}
+
+
+@media screen and (max-width: 430px) {
+   
+    footer {
+        font-size: 12px;
+    }
+    footer img {
+        width: 10px;
+    }
 }
