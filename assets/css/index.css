@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
+
 /* HEADER */
+
 
 .navegacao {
     align-items: center;
     margin: 20px;
 }
+
 
 .navegacao input {
     border-radius: 10px;
@@ -15,9 +18,12 @@
     color: black;
     border: none;
 
+
 }
 
+
 /* INÍCIO */
+
 
 .inicio {
     width: 100%;
@@ -29,25 +35,31 @@
     position: relative;
 }
 
+
 .titleImg {
     position: absolute;
     margin-left: 50px;
     font-size: 24px;
-    width: 30%;
+    width: 40%;
     color: var(--white);
 }
+
 
 .titleImg h1{
     width: 300px;
 }
 
+
 .titleImg button {
     margin-top: 10%;
 }
 
+
 .img1 {
     width: 100%;
 }
+
+
 
 
 .img1 img {
@@ -55,7 +67,10 @@
 }
 
 
+
+
 /* CARDS */
+
 
 .cards {
     width: auto;
@@ -68,7 +83,9 @@
     text-align: center;
     gap: 25%;
 
+
 }
+
 
 .card_blue {
     width: 380px;
@@ -78,7 +95,9 @@
     color: var(--white);
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 
+
 }
+
 
 .card_white {
     width: 380px;
@@ -87,17 +106,21 @@
     background-color: white;
     border-radius: 20px;
     z-index: 1;
-    bottom: 14%;
+    bottom: 80px;
     color: var(--cinza);
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 
+
 }
+
 
 .containerCard {
     display: flex;
     flex-direction: column;
 
+
 }
+
 
 .card_blue {
     width: 380px;
@@ -107,33 +130,44 @@
     color: var(--white);
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 
+
 }
+
 
 .titleCard {
     justify-content: center;
     padding: 20px;
     line-height: 60px;
 
+
 }
+
 
 li {
     display: flex;
     padding: 15px;
     gap: 10px;
 
+
 }
+
 
 ul {
     padding: 30px 60px 80px 60px;
 }
 
 
+
+
 li img {
     width: 20px;
 
+
 }
 
+
 /* BOTÕES */
+
 
 button {
     width: 190px;
@@ -143,28 +177,33 @@ button {
     color: white;
     border: none;
 
+
 }
+
 
 @media screen and (min-width: 1200px) {
     .cards {
         gap: 280px;
     }
 }
-
 @media screen and (max-width: 1200px) {
+
 
     .titleImg {
         font-size: 16px;
     }
+
 
     .cards {
         display: block;
         width: 100%;
     }
 
+
     ul {
         padding: 0;
     }
+
 
     .card_blue {
         width: 100%;
@@ -173,6 +212,7 @@ button {
         justify-content: center;
         margin: 24px 0;
     }
+
 
     .card_white {
         width: 100%;
@@ -183,6 +223,7 @@ button {
         justify-content: center;
     }
 
+
     .containerCard {
         flex-direction: row;
         justify-content: space-around;
@@ -191,53 +232,64 @@ button {
         gap: 24px;
     }
 
+
     .titleCard h1 {
         font-size: 60px;
     }
+
 
     .titleCard h2 {
         font-size: 30px;
     }
 
+
     .card_white button {
         margin-bottom: 2rem;
     }
+
 
     .card_blue button {
         margin-bottom: 2rem;
     }
 
+
     li p {
         font-size: 20px;
     }
 
-}
 
-@media screen and (max-width: 769px),(min-width:660px){
+}
+@media screen and (max-width: 769px){
+
 
     .titleImg {
-        font-size: 16px;
+
+
         width: auto;
         display: flex;
         align-items: center;
-        margin: 0 50px;
-        gap: 5rem;
-        
+        margin: 0 30px;
+       
+
 
     }
+
 
     .titleImg button {
-        min-width: 150px;
+        max-width: 500px;
         margin: 0;
     }
+
 
     .titleCard h1 {
         font-size: 40px;
     }
 
+
     .titleCard h2 {
         font-size: 20px;
     }
+
 
     li p {
         font-size: 16px;
@@ -247,4 +299,76 @@ button {
     }
 
 
+
+
+}
+@media screen and (max-width: 640px){
+
+
+    .titleImg h1{
+        font-size: 24px;
+        width: 40%;
+    }
+    .titleImg{
+        gap: 10%;
+    }
+
+
+    .titleImg button{
+        font-size: 12px;
+        width: 180px;
+        height: 50px;
+        border-radius: 10px;
+    }
+    .containerCard{
+        flex-direction: column;
+       
+    }
+}
+@media screen and (max-width: 430px){
+    .titleImg h1{
+        font-size: 16px;
+    }
+   
+    .cards{
+        padding: 40px;
+    }
+    .containerCard{
+        padding: 10px;
+        gap: 0;
+    }
+    .titleCard{
+        padding: 10px;
+    }
+    .titleCard h1 {
+        font-size: 30px;
+    }
+
+
+    .titleCard h2 {
+        font-size: 20px;
+    }
+    ul{
+        padding: 10px;
+    }
+    li{
+        padding: 10px;
+    }
+
+
+    li p {
+        font-size: 12px;
+    }
+    .titleImg button{
+        font-size: 10px;
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    button{
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+    }
+   
 }

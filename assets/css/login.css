@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
+
 .boxLogin {
     width: 100%;
     text-align: center;
@@ -8,17 +9,20 @@
     display: flex;
     margin-top: 8%;
 
+
 }
+
 
 form {
     background-color: var(--roxo);
-    width: 60%;
+    width: 600px;
     height: 400px;
     text-align: center;
     border-radius: 10px;
     align-items: center;
     color: var(--white);
 }
+
 
 .link {
     display: flex;
@@ -27,7 +31,10 @@ form {
     color: var(--white);
 
 
+
+
 }
+
 
 input {
     height: 40px;
@@ -38,31 +45,80 @@ input {
     border: 0;
 }
 
+
+
+
 .title {
     padding: 20px;
 }
+
 
 .title h1, h2 {
     padding: 2%;
 }
 
+
 a {
     color: var(--white);
 }
 
+
 .inputLogin input{
     background-color: var(--purple);
 }
-.inputPassaword input{
+.inputPassword input{
     background-color: var(--purple);
 }
 
-@media screen and (max-width:670px){
 
-    .form{
-        width: 20%;
+@media screen and (max-width:768px){
+   
+    form{
+        width: 100%;
+        height: auto;
+        margin: 0 90px;
+
 
     }
+    form input{
+        width: 60%;
+       
+    }
+    .title h1{
+        font-size: 20px;
+    }
+    .title h2{
+        font-size: 16px;
+    }
+    .link{
+        padding: 0;
+    }
+    a{
+        font-size: 10px;
+        margin: 30px 0;
+    }
 
-    
+
+   
+}
+@media screen and (max-width:530px){
+    form{
+        margin:20px;
+    }
+    .title h1{
+        font-size: 16px;
+    }
+    .title h2{
+        font-size: 12px;
+    }
+    form input{
+        height: 30px;
+        font-size: 12px;
+        /* padding: 0; */
+       
+    }
+    form .inputSubmit{
+        padding: 0;
+    }
+   
 }
