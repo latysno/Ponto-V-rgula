@@ -1,26 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
-
-/* HEADER */
-
-
-.navegacao {
-    align-items: center;
-    margin: 20px;
+.navegacao{
+    padding: 30px;
 }
-
-
-.navegacao input {
-    border-radius: 10px;
-    width: 130px;
-    height: 33px;
-    background-color: var(--white);
-    color: black;
-    border: none;
-
-
-}
-
 
 /* INÍCIO */
 
